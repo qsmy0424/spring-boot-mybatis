@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/wwhm
+    username: root
+    password: qsmy0424
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    cache: false
+mybatis:
+  type-aliases-package: com.qsmy.mybatis.model
+  mapper-locations: classpath:mybatis/**/*.xml
